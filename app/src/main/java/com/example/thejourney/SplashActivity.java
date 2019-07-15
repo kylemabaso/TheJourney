@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class SplashActivity extends Activity {
-    public static int SPLASH_TIME_OUT = 6000;
+    public static int SPLASH_TIME_OUT = 5000;
 
     LinearLayout l1,l2;
     ImageView logo;
