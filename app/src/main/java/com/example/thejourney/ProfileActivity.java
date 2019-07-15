@@ -24,7 +24,7 @@ public class ProfileActivity extends AppCompatActivity {
         appBarLayout = (AppBarLayout) findViewById(R.id.appbarid);
         viewPager = (ViewPager) findViewById(R.id.viewpagerid);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.AddFragment(new FragmentPersonal(), "Personal");
+        adapter.AddFragment(new FragmentProfile(), "Profile");
         adapter.AddFragment(new FragmentSocial(), "Social");
         adapter.AddFragment(new FragmentMoment(), "Moment");
 
