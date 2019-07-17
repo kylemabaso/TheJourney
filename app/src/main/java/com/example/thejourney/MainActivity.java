@@ -10,6 +10,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button buttonAbout;
     private Button buttonProfile;
+    private Button buttonLinkedIn;
+    private Button buttonContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,22 @@ public class MainActivity extends AppCompatActivity {
                 openProfile();
             }
         });
+
+        buttonLinkedIn = (Button) findViewById(R.id.buttonLinkedIn);
+        buttonLinkedIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLinkedIn();
+            }
+        });
+
+//        buttonContact = (Button) findViewById(R.id.buttonContact);
+//        buttonContact.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                openContact();
+//            }
+//        });
     }
     public void openAboutUs() {
         Intent intent = new Intent(this, AboutActivity.class);
@@ -39,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void openProfile() {
         Intent intent = new Intent(this, ProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void openLinkedIn() {
+        Intent intent = new Intent(this, LinkedIn.class);
+        startActivity(intent);
+    }
+
+    public void openContact() {
+        Intent intent = new Intent(this, ContactActivity.class);
         startActivity(intent);
     }
 }

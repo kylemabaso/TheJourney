@@ -2,7 +2,6 @@ package com.example.thejourney;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.net.http.SslError;
 import android.os.Bundle;
 import android.webkit.SslErrorHandler;
@@ -10,14 +9,14 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class AboutActivity extends AppCompatActivity {
+public class LinkedIn extends AppCompatActivity {
 
-    private WebView webView;
+    private android.webkit.WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("About Andela");
+        setTitle("Linked In Profile");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.activity_about);
@@ -33,6 +32,6 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://andela.com/alc/");
+        webView.loadUrl("https://www.linkedin.com/in/krmabaso/");
     }
 }

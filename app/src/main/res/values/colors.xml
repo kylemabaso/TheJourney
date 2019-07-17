@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimary">#06bdbb</color>
     <color name="colorPrimaryDark">#0288D1</color>
     <color name="colorAccent">#FF4081</color>
     <color name="black">#000</color>
     <color name="lightOrange">#fdf2df</color>
     <color name="lightOrangeDark">#ebd6ab</color>
+    <color name="twitterColor">#1da1f2</color>
+    <color name="linkedInColor">#0077B5</color>
 </resources>

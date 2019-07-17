@@ -42,10 +42,9 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="180dp"
         android:background="@drawable/andela"
         android:baselineAligned="true"
-        android:orientation="vertical">
-    </LinearLayout>
+        android:orientation="vertical"></LinearLayout>
 
 </LinearLayout>
