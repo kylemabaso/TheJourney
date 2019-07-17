@@ -16,7 +16,7 @@ public class LinkedIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Linked In Profile");
+        setTitle("LinkedIn Profile");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.activity_about);

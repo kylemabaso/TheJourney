@@ -42,14 +42,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        buttonContact = (Button) findViewById(R.id.buttonContact);
-//        buttonContact.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                openContact();
-//            }
-//        });
+        buttonContact = (Button) findViewById(R.id.buttonContact);
+        buttonContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openContact();
+            }
+        });
     }
+
     public void openAboutUs() {
         Intent intent = new Intent(this, AboutActivity.class);
         startActivity(intent);

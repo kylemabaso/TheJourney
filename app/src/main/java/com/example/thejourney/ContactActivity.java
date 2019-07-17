@@ -19,6 +19,7 @@ public class ContactActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Get in Touch");
         setContentView(R.layout.activity_contact);
 
         final EditText your_name        = (EditText) findViewById(R.id.your_name);
